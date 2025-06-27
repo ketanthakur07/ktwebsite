@@ -3,32 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ketan Thakur | Welcome</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Ketan Thakur | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      background-color: #1f1f1f;
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: #9b59b6;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 100px;
+      object-fit: cover;
+      margin-bottom: 2rem;
+      border: 3px solid #9b59b6;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    .hero p {
+      max-width: 600px;
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+    .btn {
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      background: #9b59b6;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo">Ketan Thakur</div>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="logo">Ketan</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </header>
 
-  <section class="hero bordered">
-    <img src="https://media.giphy.com/media/xUPGcl3ijl0N5gU5nK/giphy.gif" class="welcome-gif" alt="Welcome" />
-    <h1>Hello, I'm Ketan 👋</h1>
-    <p>Second-year M.Tech CSE student at VIT-AP<br>Exploring Java, DSA & AI/ML.</p>
+  <section class="hero">
+    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Hero Placeholder" />
+    <h1>Hi, I'm Ketan Thakur</h1>
+    <p>Aspiring software engineer, shayari writer, and gym enthusiast. Currently pursuing Integrated M.Tech CSE @ VIT-AP. Exploring Java, DSA & AI/ML — one project at a time.</p>
     <a href="contact.html" class="btn">Let's Connect</a>
   </section>
-
-  <footer>
-    <p>&copy; 2025 Ketan Thakur | <a href="shayari.html">Poetry</a></p>
-  </footer>
 </body>
 </html>
